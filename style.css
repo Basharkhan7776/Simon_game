@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+body{
+    font-family: "Kalam", cursive;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+
+.outerBox{
+    width: 60vh;
+    box-shadow: inset 8px 8px 16px #252525,
+            inset -8px -8px 16px #5d5d5d;
+    border-radius: 30px;
+}
+
+.title{
+    box-shadow:  8px 8px 16px #252525,
+             -8px -8px 16px #5d5d5d;
+    width: 60%;
+    margin: 5px auto;
+    border-radius: 30px;
+}
+.caption{
+    box-shadow:  8px 8px 16px #252525,
+             -8px -8px 16px #5d5d5d;
+    width: 80%;
+    margin: 5px auto;
+    border-radius: 30px;
+    padding: 2px 5px;
+}
+
+.ruleBox {
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    word-spacing: 5px;
+    margin: 30px;
+    box-shadow:  8px 8px 16px #252525,
+             -8px -8px 16px #5d5d5d;
+    border-radius: 30px;
+}
+
+ul{
+     list-style-type: square;
+}
+.btn{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 20%;
+    margin: 2.5rem;
+    box-shadow:  8px 8px 16px #252525,
+             -8px -8px 16px #5d5d5d;
+    cursor: pointer;
+}
+
+.btn-conainer{
+    display: flex;
+    justify-content: center;
+}
+
+.startBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+    height: 4rem;
+    width: 7rem;
+    border-radius: 3rem;
+    font-size: 1.5em;
+    box-shadow:  8px 8px 16px #252525,
+             -8px -8px 16px #5d5d5d;
+    cursor: pointer; 
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+.red{
+    background-color: #d85880;
+}
+
+.yellow{
+    background-color: #f99b45;
+}
+
+.green{
+    background-color: #63aac0;
+}
+
+.purple{
+    background-color: #819ff9;
+}
+
+.gameFlash{
+    background-color: white;
+}
+
+.userFlash{
+    background-color: green;
+}
+
+@media only screen and (max-width: 480px) {
+    .outerBox{
+        width: 90vw;
+    }
+    .btn{
+        height: 8rem;
+        width: 8rem;
+        margin: 1.5rem;
+    }
+    .startBtn{
+        height: 4rem;
+        width: 6rem;
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .outerBox{
+        width: 95vw;
+    }
+    .btn{
+        height: 4rem;
+        width: 4rem;
+        margin: 0.5rem;
+    }
+    .startBtn{
+        height: 2.5rem;
+        width: 4rem;
+        font-size: 0.8em;
+    }
+    h1{
+        font-size: 1em;
+    }
+    h2{
+        font-size: 0.8em;
+    }
+}
